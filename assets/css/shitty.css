@@ -1,0 +1,128 @@
+html
+{
+	background-image: url('../img/loki.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+	height: 100%;
+}
+
+
+nav
+{
+	background-color:#464646 ;
+	margin: 0px;
+	height:40px;
+}
+nav ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li
+{
+	display: inline-block;
+	height: 100%;
+	margin: 1px;
+	padding: 1px;
+	color: white;
+}
+
+nav a
+{
+	color: inherit;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 28px;
+}
+
+nav li:hover
+{
+	color : black;
+	background-color: grey;
+}
+
+#page
+{
+	width: 70%;
+	margin-top: auto;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #cfd8dc;
+	height: 100%;
+	box-shadow: 10px 10px 5px #b0bec5 ;
+	color: #263238; 
+}
+
+.white
+{
+	color: white;
+	font-family:cursive;
+}
+
+.tesseract
+{
+	position: absolute;
+	height:15%;
+	width:10%;
+	top: 20%;
+	left: 10%;
+	-webkit-animation-name: tesseractframe; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation-name: tesseractframe;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+
+.tesseract a
+{
+	display: block;
+	width:100%;
+	height:100%;
+	margin: 0px;
+	padding: 0px;
+}
+.tesseract img
+{
+	width:100%;
+	height:100%;
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes tesseractframe {
+    0%   {left:10%; top:20%;}
+    100% {left:10%; top:40%;}
+}
+
+/* Standard syntax */
+@keyframes tesseractframe {
+    0%   {left:10%; top:20%;}
+    100% {left:10%; top:40%;}
+}
+
+
+.cursive
+{
+	font-family: cursive;
+}
+
+.inline
+{
+	display:inline;
+}

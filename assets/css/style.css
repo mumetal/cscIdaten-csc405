@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'digital-clock-font' ;
+    src: url('../fonts/digital.ttf');
+}
+
+#text{
+    width: 50%;
+    height: 80px;
+    /*font-family: 'digital-clock-font';*/
+    font-size: 60px;
+    text-align: right;
+}
+
+.btnnum{
+    width: 70px;
+    height: 70px;
+    margin:5px;
+    padding:5px;
+}
